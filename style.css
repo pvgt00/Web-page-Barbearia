@@ -1,0 +1,70 @@
+body {
+	
+}
+
+#banner {
+	width:100%;
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+h1 {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 30px
+}
+
+em strong {
+	color: #008080;
+}
+
+.itens {
+	font-style: italic;
+}
+
+.beneficios {
+	background: #CCCCCC;
+	padding: 20px;
+
+}
+
+h2 {
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+.Formulário{
+	background: #CCCCCC;
+	padding:  20px;
+	vertical-align: center;
+
+}
+
+.formulario {
+	text-align: center;
+	background: #CCCCCC;
+}
+.imagemqualidade{
+
+	max-width: 600px;
+	max-height: 300px;
+	align:  left;
+	padding: 20px;
+}

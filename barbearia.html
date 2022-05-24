@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Barbearia Santos</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<img id="banner" src="banner.jpg">
+		<div class="principal">
+			<h1>Sobre a Barbearia Santos</h1>
+	 
+			<p>Localizada no coração da cidade litorânea a <strong>Barbearia Santos</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2018, a Barbearia Santos já é destaque na cidade e conquista mais clientes a cada dia.</p>
+
+			<p id="missao"><em>Nossa missão é: <strong>"Fornecer auto-estima, estilo e qualidade de vida aos clientes"</strong>.</em></p>
+
+			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda, tendo um atendimento de alto padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes. Possuimos cortes para cabelo, tanto masculino quanto feminino, e também fazemos a barba e outros tratamentos estéticos, como por exemplo serviços de terapia capilar e de depilação.</p>
+
+			<p>Vale ressaltar a presença do nosso <strong>Happy Hour</strong>, todas as Quartas, Sextas e Sábados das 16h às 22h , ofereçemos um desconto de 10 reais no corte de cabelo + barba, além de oferecermos ao nosso cliente cervejas artesanais e acesso ao nosso lounge de jogos, contendo fliperama, sinuca e ping-pong.</p>
+		</div>
+
+		<div class="beneficios">
+			<h2>Benefícios</h2>
+
+			<ul>
+				<li class="itens">Atendimento Impecável aos Clientes</li>
+				<li class="itens">Espaço Diferenciado</li>
+				<li class="itens">Localização Privilegiada</li>
+				<li class="itens">Profissionais Qualificados</li>
+				<li class="itens">Produtos de Primeira Linha</li>
+				<li class="itens">Ambiente Climatizado e com Televisão</li>
+				<li class="itens">Preços bons tanto em cortes como em produtos</li>
+
+			</ul>
+
+			<img src="beneficios.jpg" class="imagembeneficios">
+			<img src="qualidade.jpg" class="imagemqualidade">
+
+		</div>
+
+		<div class="Formulário">
+			<h2>Formulário</h2>
+
+			 <form class="formulario" method="post"> 
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>
+        <div class="field">
+            <label for="Cidade">Cidade:</label>
+            <input type="Cidade" id="Cidade" name="Cidade" placeholder="Digite o nome de sua Cidade*" required>
+        </div>
+        <div class="field">
+            <label for="Estado">Estado:</label>
+            <input type="Estado" id="Estado" name="Estado" placeholder="Digite seu Estado*" required>
+        </div>                       
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+			
+
+		</div>
+	</body>
+</html>
